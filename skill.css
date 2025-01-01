@@ -123,6 +123,40 @@ nav {
         }
        
         
-        @media (max-width:780px){
-
+       @media (max-width: 445px) {
+          nav {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px 20px;
+          }
+        
+          .content {
+            grid-template-columns: 1fr; /* Single column layout */
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+        
+          .skill-box {
+            padding: 0.5rem;
+          }
+        
+          .img {
+            width: 70px;
+            height: 70px;
+          }
+        
+          h3 {
+            font-size: 1rem;
+          }
+        
+          .container {
+            flex-direction: column;
+            text-align: center;
+          }
+        
+          button {
+            font-size: 16px;
+            padding: 0.5em 1.5em;
+            margin: 2em 0;
+          }
         }
