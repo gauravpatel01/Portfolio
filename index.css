@@ -172,33 +172,71 @@
     right: -10%;
   }
   
-  /* Responsive Design */
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
+    /* Navigation Bar */
     nav {
       flex-direction: column;
-      padding: 14px;
+      padding: 20px;
+      text-align: center;
     }
   
     nav .right ul {
       flex-direction: column;
-      align-items: center;
+      gap: 10px;
     }
   
+    nav .btn a {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  
+    /* Header Section */
     header.container {
       flex-direction: column-reverse;
       text-align: center;
-    }
-  
-    header .home-img img {
-      width: 300px;
+      padding: 30px;
     }
   
     header .content h1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   
     header .content p {
       font-size: 1rem;
+      margin: 15px 0;
+    }
+  
+    header .home-img img {
+      width: 280px;
+      transform: translateY(-20px);
+    }
+  
+    .button-group {
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+  
+    /* Adjust social media icons */
+    header .social-media a {
+      font-size: 1.2rem;
+      margin-right: 10px;
+    }
+  
+    /* Blur Effects */
+    header .blur {
+      width: 100px;
+      height: 100px;
+      filter: blur(50px);
+    }
+  
+    header .blur:first-child {
+      top: 5%;
+      left: -5%;
+    }
+  
+    header .blur:last-child {
+      bottom: 5%;
+      right: -5%;
     }
   }
-  
