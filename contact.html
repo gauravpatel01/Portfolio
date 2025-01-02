@@ -6,24 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Skills</title>
     <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
 <body>
     <nav>
         <h1>Contact Me</h1>
     </nav>
-    <header class="container">
-        <div class="content">
-            <span class="blur"></span>
-            <span class="blur"></span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium esse amet. Accusamus quidem
-                obcaecati nostrum consequuntur fugiat unde, magnam consequatur, aut maiores quia sit dicta debitis quae
-                enim delectus?
-            </p>
-            <a href="project.html" class="btn">Next</a>
-        </div>
-    </header>
+    <div class="container">
+        <main class="row">
+            <section class="col left">
+                <div class="contacttitle">
+                    <h2>Get in Touch</h2>
+                    <p> "Let’s Connect and Make Something Amazing Together!" 
+
+                        Whether you have a question, an idea, or just want to say hi, I’d love to hear from you! Drop me
+                        a message below or use the contact details to reach out. Let’s create something extraordinary!
+                    </p>
+                </div>
+                <div class="contactinfo">
+                    <div class="icongroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <span>Phone</span>
+                            <span>+91 6394601102</span>
+                        </div>
+                    </div>
+                    <div class="icongroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <span>Email</span>
+                            <span>gaurav.sk.patel@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="icongroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="details">
+                            <span>Location</span>
+                            <span>Nagpur, Maharashtra</span>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/gaurav-patel-305a24249/"><i
+                                class='fa-brands fa-linkedin'></i></a>
+                        <a href="https://github.com/Gaurav0232"><i class=' fa-brands fa-github'></i></a>
+                        <a href="https://m.facebook.com/profile.php?id=100046028733448"><i
+                                class='fa-brands fa-facebook'></i></a>
+                        <a href="https://www.instagram.com/__gaurav.01__p/"><i class='fa-brands fa-instagram'></i></a>
+                        <a href="https://x.com/GAURAV_PATEL_01"><i class='fa-brands fa-twitter'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col right">
+                <form action="#" class="messageform">
+                    <div class="inputgroup halfwidth">
+                        <input type="text" name="name" required>
+                        <label>Your Name</label>
+                    </div>
+                    <div class="inputgroup halfwidth">
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="inputgroup fullwidth">
+                        <input type="text" name="subject" required>
+                        <label>Subject</label>
+                    </div>
+                    <div class="inputgroup fullwidth">
+                        <textarea name="message" required></textarea>
+                        <label>Say Something</label>
+                    </div>
+                    <div class="inputgroup fullwidth">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+    <div class="btn">
+        <a href="project.html" class="btn">Next</a>
+    </div>
+    <script src="contact.js"></script>
 </body>
 
 </html>
